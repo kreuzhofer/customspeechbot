@@ -25,6 +25,7 @@ namespace VideoToTextEchoBot
                 HandleSystemMessage(activity);
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
+            var response = null;
             return response;
         }
 
